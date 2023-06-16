@@ -45,11 +45,11 @@ public class OrderItem implements Serializable {
 	}
 	
 	
-	public Product getPoduct() {
+	public Product getProduct() {
 		return id.getProduct();
 	}
 	
-	public void setPoduct(Product product) {
+	public void setProduct(Product product) {
 		id.setProduct(product);
 	}
 	public Integer getQuantity() {
